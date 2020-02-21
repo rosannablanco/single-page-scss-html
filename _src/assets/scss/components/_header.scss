@@ -11,19 +11,19 @@
     font-family: $font-title;
     text-transform: uppercase;
     color: white;
-    line-height: 132px;
-    font-size: 100px;
+    width: 290px;
+    line-height: 55px;
+    font-size: 42px;
     text-align: center;
-    width: 730px;
     @media all and (min-width: 768px) {
       width: 690px;
       font-size: 80px;
       line-height: 106px;
     }
-    @media all and (min-width: 320px) {
-      width: 290px;
-      font-size: 42px;
-      line-height: 55px;
+    @media all and (min-width: 1280px) {
+      width: 730px;
+      font-size: 100px;
+      line-height: 132px;
     }
   }
   &__text {
