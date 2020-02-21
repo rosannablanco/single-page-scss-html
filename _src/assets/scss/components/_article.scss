@@ -1,15 +1,12 @@
 .article-page {
-  margin: 30px 15px 45px 15px;
-  @media all and (min-width: 1280px) {
-    margin: 60px 23%;
-  }
+  padding-bottom: 45px;
   &__subtitle {
     font-family: $font-main;
     font-size: 14px;
     color: #8ccbea;
     line-height: 30px;
-    @media all and (min-width: 768px) {
-      /* font-size: 14px; */
+    @media all and (min-width: 1280px) {
+      font-size: 16px;
     }
   }
   &__title {
