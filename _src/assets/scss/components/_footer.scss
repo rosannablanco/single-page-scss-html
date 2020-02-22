@@ -1,0 +1,47 @@
+.footer-page {
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-transform: $uppercaseText;
+  text-align: center;
+  padding: 60px 0 45px 0;
+  line-height: $lineHeightText-30;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 45px 39px;
+    text-align: left;
+  }
+  @media all and (min-width: 1280px) {
+    justify-content: center;
+    padding: 45px 39px;
+    text-align: left;
+  }
+  &__nav-list {
+    @media all and (min-width: 768px) {
+      margin-bottom: 0px;
+    }
+    &--menu,
+    &--rrss {
+      list-style: none;
+    }
+    &--menu {
+      @media all and (min-width: 1280px) {
+        margin-right: 60px;
+      }
+    }
+  }
+  &__copy {
+    font-size: 14px;
+    text-transform: $lowerCaseText;
+    @media all and (min-width: 768px) {
+      order: -1;
+    }
+    @media all and (min-width: 1280px) {
+      margin-right: 60px;
+    }
+  }
+}
