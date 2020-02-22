@@ -1,10 +1,4 @@
 .main-page {
-  padding: 30px 15px 0 15px;
-  @media all and (min-width: 768px) {
-    padding: 30px 39px 0 39px;
-  }
-  @media all and (min-width: 1280px) {
-    padding: 60px 273px 0 273px;
-  }
   @import "article";
+  @import "section";
 }

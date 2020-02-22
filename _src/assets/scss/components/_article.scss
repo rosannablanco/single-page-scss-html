@@ -1,7 +1,10 @@
 .article-page {
-  padding-bottom: 45px;
+  padding: 30px 15px 45px 15px;
   @media all and (min-width: 768px) {
-    padding-bottom: 60px;
+    padding: 30px 39px 60px 39px;
+  }
+  @media all and (min-width: 1280px) {
+    padding: 60px 273px;
   }
   &__subtitle {
     font-family: $font-main;
