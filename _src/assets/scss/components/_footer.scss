@@ -1,35 +1,34 @@
 .footer-page {
-  background-color: #304268;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: $color-blue-04;
+  display: $displayFlex;
+  flex-direction: $columnFlex;
+  align-items: $center;
   position: relative;
   color: #fff;
   text-transform: $uppercaseText;
-  text-align: center;
+  text-align: $center;
   padding: 60px 0 45px 0;
   line-height: $lineHeightText-30;
   @media all and (min-width: 768px) {
-    flex-direction: row;
+    flex-direction: $rowFlex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 45px 39px;
-    text-align: left;
+    text-align: $left;
   }
   @media all and (min-width: 1280px) {
     justify-content: center;
     padding: 45px 39px;
-    text-align: left;
   }
   &__nav-row {
-    width: 45px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
+    width: rem(45);
+    height: rem(45);
+    display: $displayFlex;
+    justify-content: $center;
+    position: $positionAbsolute;
     top: -22.5px;
-    background-color: white;
-    border-radius: 50%;
+    background-color: $color-white;
+    border-radius: $borderRadius-btn;
     @media all and (min-width: 768px) {
       left: 50%;
       transform: translateX(-50%);
@@ -44,7 +43,7 @@
       list-style: none;
       margin-bottom: 30px;
       &--link {
-        color: #fff;
+        color: $color-white;
       }
     }
     &--menu {

@@ -1,11 +1,11 @@
 .nav-bar {
-  position: fixed;
+  position: $positionFixed;
   top: 0;
   left: 0;
   z-index: 20px;
   &__icon-menu {
-    display: inline-block;
-    padding: 15px;
-    background-color: #0271bc;
+    padding: rem(15);
+    display: $displayInlineBlock;
+    background-color: $color-blue-03;
   }
 }

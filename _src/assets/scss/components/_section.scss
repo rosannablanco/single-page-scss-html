@@ -3,8 +3,8 @@
   grid-template-columns: repeat(3, 1fr);
   row-gap: 30px;
   padding: 30px 15px 60px 15px;
-  background-color: #eff9ff;
-  text-align: $textCenter;
+  background-color: $color-blue-01;
+  text-align: $center;
   @media all and (min-width: 768px) {
     padding: 30px 40px 60px 40px;
     column-gap: 25px;
@@ -14,15 +14,15 @@
   }
   &__title {
     grid-column: span 4;
-    font-size: 24px;
+    font-size: rem(24);
     line-height: $lineHeightText-30;
     font-family: $font-title;
     @media all and (min-width: 768px) {
-      font-size: 26px;
+      font-size: rem(26);
       line-height: $lineHeightText-45;
     }
     @media all and (min-width: 1280px) {
-      font-size: 32px;
+      font-size: rem(32);
     }
   }
   &__content {
@@ -31,19 +31,19 @@
       grid-column: span 1;
     }
     &__subtitle {
-      font-size: 18px;
+      font-size: rem(18);
       font-weight: bold;
       line-height: $lineHeightText-30;
       @media all and (min-width: 768px) {
-        font-size: 24px;
+        font-size: rem(24);
       }
     }
     &__text {
-      font-size: 18px;
+      font-size: rem(18);
       padding: 0 50px;
       line-height: $lineHeightText-30;
       @media all and (min-width: 768px) {
-        font-size: 20px;
+        font-size: rem(20);
         padding: 0;
       }
     }
@@ -54,11 +54,11 @@
       margin-top: 15px;
     }
     &--link {
-      font-size: 20px;
-      color: #fff;
+      font-size: rem(20);
+      color: $color-white;
       line-height: $lineHeightText-45;
-      background-color: #f26002;
-      border-radius: $borderRadiusBtn;
+      background-color: $color-orange;
+      border-radius: $borderRadius-btn;
       padding: 5px 30px;
       @media all and (min-width: 768px) {
         padding: 10px 40px;

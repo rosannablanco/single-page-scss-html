@@ -1,0 +1,9 @@
+$defaultFontSize: 16;
+@function rem($pixels) {
+  @return ($pixels / $defaultFontSize * 1rem);
+}
+
+/* $defaultPorcentage: 100;
+@function porcentage($pixels) {
+  @return ($pixels / $defaultPorcentage * 1%);
+} */

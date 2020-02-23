@@ -15,30 +15,30 @@
   }
   &__title {
     font-family: $font-title;
-    text-transform: uppercase;
-    color: white;
-    width: 290px;
+    text-transform: $uppercaseText;
+    color: $color-white;
+    width: rem(290);
     line-height: 55px;
-    font-size: 42px;
-    text-align: center;
+    font-size: rem(42);
+    text-align: $center;
     @media all and (min-width: 768px) {
-      width: 690px;
-      font-size: 80px;
-      line-height: 106px;
+      width: rem(690);
+      font-size: rem(80);
+      line-height: rem(106);
     }
     @media all and (min-width: 1280px) {
-      width: 730px;
-      font-size: 100px;
-      line-height: 132px;
+      width: rem(730);
+      font-size: rem(100);
+      line-height: rem(132);
     }
   }
   &__text {
-    color: white;
+    color: $color-white;
     font-family: $font-main;
-    font-size: 16px;
+    font-size: rem(16);
     margin: 10px 0 45px 0;
     @media all and (min-width: 768px) {
-      font-size: 24px;
+      font-size: rem(24);
       margin: 20px 0 30px 0;
     }
     @media all and (min-width: 1280px) {
@@ -47,12 +47,12 @@
     }
   }
   &__link {
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    border-radius: 50%;
+    width: rem(45);
+    height: rem(45);
+    display: $displayInlineBlock;
+    display: $displayFlex;
+    justify-content: $center;
+    background-color: $color-white;
+    border-radius: $borderRadius-btn;
   }
 }
