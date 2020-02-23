@@ -1,3 +1,24 @@
+// FONTS
+$font-main: "Roboto", sans-serif;
+$font-title: "Roboto Slab", sans-serif;
+
+//
+$lineHeightText-30: 30px;
+$lineHeightText-45: 45px;
+$uppercaseText: uppercase;
+$lowerCaseText: lowercase;
+$capitalizeText: capitalize;
+
+// COLOR
+$color-white: #fff;
+$color-grey: #4a4a4a;
+$color-black: #000;
+$color-blue-01: #eff9ff;
+$color-blue-02: #8ccbea;
+$color-blue-03: #0271bc;
+$color-blue-04: #304268;
+$color-orange: #f26002;
+
 //DISPLAYS
 $displayFlex: flex;
 $displayInlineBlock: inline-block;
@@ -10,16 +31,6 @@ $rowFlex: row;
 $positionFixed: fixed;
 $positionRelatived: relative;
 $positionAbsolute: absolute;
-
-// colors
-$color-white: #fff;
-$color-grey: #4a4a4a;
-$color-black: #000;
-$color-blue-01: #eff9ff;
-$color-blue-02: #8ccbea;
-$color-blue-03: #0271bc;
-$color-blue-04: #304268;
-$color-orange: #f26002;
 
 //ALIGN
 $center: center;
