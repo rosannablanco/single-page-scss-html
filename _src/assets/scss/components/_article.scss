@@ -11,6 +11,7 @@
     font-size: rem(14);
     color: $color-blue-02;
     line-height: rem(30);
+    text-transform: $capitalizeText;
     @media all and (min-width: 1280px) {
       font-size: rem(16);
     }
@@ -19,6 +20,7 @@
     font-family: $font-title;
     font-size: rem(24);
     line-height: $lineHeightText-30;
+    text-transform: $capitalizeText;
     @media all and (min-width: 768px) {
       font-size: rem(26);
       line-height: $lineHeightText-45;
@@ -47,6 +49,11 @@
     border: 2px solid $color-orange;
     color: $color-orange;
     padding: 5px 15px;
+    transition: ease 2s;
+    &:hover {
+      color: $color-white;
+      background-color: $color-orange;
+    }
     @media all and (min-width: 768px) {
       padding: 5px 30px;
     }

@@ -31,6 +31,19 @@
     transform: translateX(-50%);
     background-color: $color-white;
     border-radius: $borderRadius-btn;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    animation: up 1s steps(10) inherit;
+    /* animation-name: up;
+    animation-duration: 1s;
+    animation-iteration-count: 1; */
+    @keyframes up {
+      from {
+        top: -22.5px;
+      }
+      to {
+        top: -50px;
+      }
+    }
   }
   &__nav-list {
     @media all and (min-width: 768px) {
