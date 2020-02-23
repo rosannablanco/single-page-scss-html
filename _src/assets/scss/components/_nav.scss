@@ -3,9 +3,9 @@
   top: 0;
   left: 0;
   z-index: 20px;
-
-  &__ico-menu {
-    background-color: #0271bc;
+  &__icon-menu {
+    display: inline-block;
     padding: 15px;
+    background-color: #0271bc;
   }
 }
