@@ -3,6 +3,7 @@
   display: $displayFlex;
   flex-direction: $columnFlex;
   align-items: $center;
+  justify-content: center;
   position: relative;
   color: #fff;
   text-transform: $uppercaseText;
@@ -32,18 +33,7 @@
     background-color: $color-white;
     border-radius: $borderRadius-btn;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    animation: up 1s steps(10) inherit;
-    /* animation-name: up;
-    animation-duration: 1s;
-    animation-iteration-count: 1; */
-    @keyframes up {
-      from {
-        top: -22.5px;
-      }
-      to {
-        top: -50px;
-      }
-    }
+    animation: up 0.8s steps(10) infinite;
   }
   &__nav-list {
     @media all and (min-width: 768px) {
@@ -78,5 +68,16 @@
     .heart {
       color: $color-orange;
     }
+  }
+}
+
+@keyframes up {
+  from {
+    top: -22.5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  }
+  to {
+    top: -30px;
+    box-shadow: -0px 15px 16px rgba(0, 0, 0, 0.5);
   }
 }
