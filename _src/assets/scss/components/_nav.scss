@@ -4,8 +4,9 @@
   left: 0;
   z-index: 20px;
   &__icon-menu {
-    padding: rem(15);
+    padding: rem(12.5) rem(14);
     display: $displayInlineBlock;
     background-color: $color-blue-03;
+    text-align: center;
   }
 }
