@@ -41,10 +41,9 @@
     }
   }
   &__button {
+    @include texto(rem(20), rem(45));
     font-family: $font-main;
     font-weight: 500px;
-    font-size: rem(20);
-    line-height: $lineHeightText-45;
     border-radius: $borderRadius-btn;
     border: 2px solid $color-orange;
     color: $color-orange;

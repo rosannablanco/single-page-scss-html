@@ -15,22 +15,19 @@
     background-position: top left;
   }
   &__title {
+    @include texto(rem(42), rem(55));
     font-family: $font-title;
     text-transform: $uppercaseText;
     color: $color-white;
     width: rem(290);
-    line-height: 55px;
-    font-size: rem(42);
     text-align: $center;
     @media all and (min-width: 768px) {
       width: rem(690);
-      font-size: rem(80);
-      line-height: rem(106);
+      @include texto(rem(80), rem(106));
     }
     @media all and (min-width: 1280px) {
       width: rem(730);
-      font-size: rem(100);
-      line-height: rem(132);
+      @include texto(rem(100), rem(132));
     }
   }
   &__text {
